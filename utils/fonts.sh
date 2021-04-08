@@ -1,7 +1,24 @@
 #!/bin/bash
 
 rm -rf fonts/used/*
+mkdir fonts/used
 
+## Balsamiq Sans
+echo "Balsamiq Sans Titles"
+
+pyftsubset fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf \
+    --text="FMWehintu " \
+    --layout-features="kern,liga" \
+    --flavor=woff2 --obfuscate-names \
+    --output-file=fonts/used/BalsamiqSans-Regular.woff2
+    # --verbose --timing
+
+pyftsubset fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf \
+    --text="FMWehintu " \
+    --layout-features="kern,liga" \
+    --flavor=woff --with-zopfli --obfuscate-names \
+    --output-file=fonts/used/BalsamiqSans-Regular.woff
+    # --verbose --timing
 
 ## Open Sans Regular
 echo "Open Sans Regular"

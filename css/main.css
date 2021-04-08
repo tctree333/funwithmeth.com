@@ -3,12 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  /* Balsamiq Sans is licensed under the Open Font License */
+  @font-face {
+    font-family: 'Balsamiq Sans';
+    src: url('/fonts/BalsamiqSans-Regular.woff2') format('woff2'),
+      url('/fonts/BalsamiqSans-Regular.woff') format('woff');
+    font-display: swap;
+  }
+
   /* Open Sans is licensed under the Apache License, Version 2.0 */
   @font-face {
     font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Variable.woff2') format('woff2');
+    src: url('/fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('/fonts/OpenSans-Regular.woff') format('woff');
     font-display: swap;
-    font-weight: 300 900;
   }
 
   @font-face {

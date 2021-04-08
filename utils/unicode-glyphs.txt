@@ -1,0 +1,6 @@
+00,0D  # null, CR
+20-40  # punctuation/numbers
+41-7E  # letters/punctuation
+A9  # copyright
+2013-2014  # dashes
+2018-2019,201C-201D  # quotes
