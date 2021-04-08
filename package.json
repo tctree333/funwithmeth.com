@@ -1,0 +1,35 @@
+{
+  "name": "funwithmeth.com",
+  "version": "1.0.0",
+  "description": "A website about having fun with meth",
+  "author": "Tomi Chen",
+  "homepage": "https://funwithmeth.com",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "eleventy": "npx @11ty/eleventy",
+    "postcss": "npx postcss css/ -d _site/css/",
+    "watch:eleventy": "npm run eleventy -- --serve",
+    "watch:postcss": "NODE_ENV=development npm run postcss -- --watch",
+    "build:eleventy": "ELEVENTY_PRODUCTION=true npm run eleventy",
+    "build:postcss": "NODE_ENV=production npm run postcss",
+    "clean": "rm -rf _site && mkdir _site",
+    "serve": "python3 -m http.server --dir=_site",
+    "fonts": "./utils/fonts.sh",
+    "build": "npm-run-all clean --parallel build:*",
+    "start": "npm-run-all clean --parallel watch:*"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.11",
+    "html-minifier-terser": "^5.1.1",
+    "markdown-it": "^10.0.0",
+    "markdown-it-container": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.9",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1"
+  }
+}
