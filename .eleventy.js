@@ -3,7 +3,8 @@ module.exports = function (eleventyConfig) {
 
   // copy files
   eleventyConfig.addPassthroughCopy({ 'fonts/used': '/fonts' })
-  eleventyConfig.addPassthroughCopy({ favicons: '/' })
+  eleventyConfig.addPassthroughCopy({ 'favicons': '/' })
+  eleventyConfig.addPassthroughCopy({ 'assets': '/assets' })
 
   eleventyConfig.addFilter('fullUrl', function (value) {
     if (value.startsWith(pkg.homepage)) {
