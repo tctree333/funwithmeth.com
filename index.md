@@ -2,6 +2,11 @@
 layout: layouts/content
 title: Fun With Meth
 description: In this short story, the main character recounts their experience with meth growing up, and how they learned to love meth. From struggles to find where they belong to the thrill of doing hard meth, the main character inspires us to seek friendships and try new things.
+
+page_image:
+  url: /assets/social.png
+  type: image/png
+  alt: "Fun With Meth: My Meth Experience"
 ---
 
 
