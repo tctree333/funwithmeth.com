@@ -6,13 +6,12 @@ description: In this short story, the main character recounts their experience w
 page_image:
   url: /assets/social.png
   type: image/png
-  alt: "Fun With Meth: My Meth Experience"
+  alt: 'Fun With Meth: My Meth Experience'
 ---
-
 
 # Fun With Meth
 
-*In this short story, the main character recounts their experience with meth growing up, and how they learned to love meth. From struggles to find where they belong to the thrill of doing hard meth, the main character inspires us to seek friendships and try new things.*
+_In this short story, the main character recounts their experience with meth growing up, and how they learned to love meth. From struggles to find where they belong to the thrill of doing hard meth, the main character inspires us to seek friendships and try new things._
 
 <hr>
 
@@ -31,7 +30,9 @@ I was probably only 11 or 12 years old when I discovered a thriving community of
 I thought to myself, "Wow. If these people could have so much fun doing meth, maybe I can do meth too!" Slowly, I was warming up to the idea of doing meth. I still didn't think I was old enough, and it still felt out of reach, especially the hard stuff. I didn't know if I could handle it. I lurked in the meth community, savoring every conversation, every video, every post. I didn't tell anyone about my discovery for fear of backlash. I didn't want to be known as "that kid" at school.
 
 ::: contrast
+
 > Wow. If these people could have so much fun doing meth, maybe I can do meth too!
+
 :::
 
 Fast forward a couple of years, and I was entering high school. I heard some rumors that there were plenty of people who did meth at my school, so I was excited to find out. I tried to do meth at home, using resources I found online, but I wasn't very good at it and gave up. I thought that maybe if I could find local meth users, I could get some help doing meth.
@@ -39,7 +40,9 @@ Fast forward a couple of years, and I was entering high school. I heard some rum
 One day, I decided to hang around after school to see if anyone was doing meth. This was the best decision of my life. In one of the classrooms was a group of kids doing meth with two adults. The other kids called them the "Meth Lords". They welcomed me in, and while I was nervous at first, I warmed up enough to ask them what they were doing. The meth they were doing looked like the hard stuff, and they were doing it so quickly too! I told them that I wanted to do meth but didn't feel like I was "worthy" enough to do so and was intimidated. They very generously broke down the meth into smaller chunks and walked me through doing it step by step. They even let me take some home! I was so happy!
 
 ::: contrast
+
 > One day, I decided to hang around after school to see if anyone was doing meth.
+
 :::
 
 That night, I stayed up to do meth. The thrill was unbelievable. All the things I took for granted before finally made sense. The world felt wide open. I didn't get much sleep that night.
@@ -51,7 +54,13 @@ From that moment on, my life revolved around meth. I saw meth everywhere. I bega
 I quickly learned that physics was not for me, and while I appreciated all the hard meth they were doing, it didn't have that same thrill. I enjoyed doing meth just to do meth. Sometimes, it would be useful, but that wasn't what I was seeking. To this day, I continue to do meth, even if I only do some of the lighter stuff, saving the hard stuff for weekends or special occasions. It brings me joy to see younger generations doing meth and having fun too!
 
 ::: contrast
+
 > To this day, I continue to do meth...
+
 :::
 
 Meth connects us all, from the universe to each other. It's something we share across cultures, a tool we use to explore. I've always had fun with meth. I hope you do as well.
+
+<hr>
+
+Read an [emojified version](/emoji/).

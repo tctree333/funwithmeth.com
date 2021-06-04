@@ -3,8 +3,9 @@ module.exports = function (eleventyConfig) {
 
   // copy files
   eleventyConfig.addPassthroughCopy({ 'fonts/used': '/fonts' })
-  eleventyConfig.addPassthroughCopy({ 'favicons': '/' })
-  eleventyConfig.addPassthroughCopy({ 'assets': '/assets' })
+  eleventyConfig.addPassthroughCopy({ favicons: '/' })
+  eleventyConfig.addPassthroughCopy('assets')
+  eleventyConfig.addPassthroughCopy('twemoji')
 
   eleventyConfig.addFilter('fullUrl', function (value) {
     if (value.startsWith(pkg.homepage)) {
@@ -40,7 +41,11 @@ module.exports = function (eleventyConfig) {
     return content
   })
 
+  const twemoji = require('twemoji')
+  twemoji.base = '/twemoji/'
+
   const mdContainer = require('markdown-it-container')
+
   const markdown = require('markdown-it')({
     html: true,
     xhtmlOut: true,
@@ -54,6 +59,10 @@ module.exports = function (eleventyConfig) {
       }
     },
   })
+
+  markdown.renderer.rules.text = function (token, idx) {
+    return twemoji.parse(token[idx].content)
+  }
   eleventyConfig.setLibrary('md', markdown)
 
   return {
